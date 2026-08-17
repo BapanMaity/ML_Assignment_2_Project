@@ -1,0 +1,82 @@
+Last login: Mon Aug 17 21:59:49 on ttys001
+bmcdc@Bapans-MacBook-Air ~ % git clone https://github.com/BapanMaity/ML_Assignment_2_Project.git
+Cloning into 'ML_Assignment_2_Project'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 11 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (11/11), 114.82 KiB | 4.59 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+bmcdc@Bapans-MacBook-Air ~ % ls
+Applications		Documents		ML_ASSIGNMENT_2		octave-workspace
+bapan			Downloads		ML_Assignment_2_Project	Pictures
+Desktop			FileMaximo		Movies			Public
+dev			Library			Music			PyCharmMiscProject
+bmcdc@Bapans-MacBook-Air ~ % cd ML_Assignment_2_Project
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % ls
+app.py			main.py			requirements.txt
+dataset.csv		README.md		test_data.csv
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % mkdir model
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % ls model
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % cp ~/Downloads/ML_Assignment_2_Project/model/* model/
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % ls model
+decision_tree.pkl		label_encoder.pkl		naive_bayes.pkl
+feature_columns.json		logistic_regression.pkl		random_forest_ensemble.pkl
+knn.pkl				metrics_summary.csv		train_models.py
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % ML_Assignment_2_Project% git add  model/
+git commit -m "Add dataset and model scripts"
+git push origin main
+zsh: command not found: ML_Assignment_2_Project%
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	model/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Everything up-to-date
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % git add model/
+
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   model/decision_tree.pkl
+	new file:   model/feature_columns.json
+	new file:   model/knn.pkl
+	new file:   model/label_encoder.pkl
+	new file:   model/logistic_regression.pkl
+	new file:   model/metrics_summary.csv
+	new file:   model/naive_bayes.pkl
+	new file:   model/random_forest_ensemble.pkl
+	new file:   model/train_models.py
+
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % git commit -m "Add trained models and scripts"
+
+[main d92f3b3] Add trained models and scripts
+ 9 files changed, 214 insertions(+)
+ create mode 100644 model/decision_tree.pkl
+ create mode 100644 model/feature_columns.json
+ create mode 100644 model/knn.pkl
+ create mode 100644 model/label_encoder.pkl
+ create mode 100644 model/logistic_regression.pkl
+ create mode 100644 model/metrics_summary.csv
+ create mode 100644 model/naive_bayes.pkl
+ create mode 100644 model/random_forest_ensemble.pkl
+ create mode 100644 model/train_models.py
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % git push origin main
+
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 4.26 MiB | 2.20 MiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/BapanMaity/ML_Assignment_2_Project.git
+   55a6a79..d92f3b3  main -> main
+bmcdc@Bapans-MacBook-Air ML_Assignment_2_Project % 
