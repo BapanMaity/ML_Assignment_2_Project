@@ -114,7 +114,7 @@ Deployed on **Streamlit Community Cloud**:
 `https://streamlit.io/cloud` → connect GitHub → select this repo → set
 main file to `app.py` → Deploy.
 
-> **Live app link:** `[REPLACE WITH YOUR DEPLOYED STREAMLIT APP URL]`
+> **Live app link:** `https://zqsqjsy2exdattpq5z47yd.streamlit.app/`
 
 ## Dataset Citation
 
