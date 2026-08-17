@@ -1,6 +1,6 @@
 # Student Dropout & Academic Success — Multi-Model Classifier
 
-**BITS Pilani WILP · M.Tech (AIML/DSE) · Machine Learning · Assignment 2**
+**BITS Pilani WILP · M.Tech (AIML) · Machine Learning · Assignment 2**
 
 ## a. Problem Statement
 
