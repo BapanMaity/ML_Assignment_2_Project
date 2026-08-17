@@ -33,7 +33,7 @@ interactive Streamlit app.
 ## c. GitHub Repository Link
 
 > **[REPLACE WITH YOUR ACTUAL GITHUB REPO LINK AFTER PUSHING]**
-> `https://github.com/<your-username>/<your-repo-name>`
+> `https://github.com/BapanMaity/ML_Assignment_2_Project.git`
 
 Repository contains: complete source code, `requirements.txt`, this
 `README.md`, `data/test_data.csv` (held-out test split), and the
