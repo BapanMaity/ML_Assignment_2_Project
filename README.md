@@ -36,7 +36,7 @@ interactive Streamlit app.
 > `https://github.com/BapanMaity/ML_Assignment_2_Project.git`
 
 Repository contains: complete source code, `requirements.txt`, this
-`README.md`, `data/test_data.csv` (held-out test split), and the
+`README.md`, `test_data.csv` (held-out test split), and the
 `model/` folder with training code and saved model files.
 
 ## d. Models Used
